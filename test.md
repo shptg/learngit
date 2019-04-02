@@ -5,7 +5,7 @@
 
 
 
-mermaid
+```flow
 flowchat
 st=>start: 开始
 e=>end: 结束
@@ -44,6 +44,7 @@ op7->op8
 op8->op9
 op9->e
 op1->e
+```
 
 
 

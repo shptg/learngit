@@ -5,7 +5,8 @@ https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.11.3/flowchart.min.js.map
 
 
 
-```flow
+```mermaid
+flowchat
 st=>start: 开始
 e=>end: 结束
 op1=>operation: 等大家忘了

@@ -5,7 +5,7 @@
 
 
 
-```mermaid
+mermaid
 flowchat
 st=>start: 开始
 e=>end: 结束
@@ -48,6 +48,3 @@ op1->e
 
 
 
-
-
-```

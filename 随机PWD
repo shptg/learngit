@@ -1,0 +1,39 @@
+1 随机PWD
+<script>
+var animals ="abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ0123456789";
+var randomString ="";
+
+while (randomString.length<100){
+index = Math.floor(Math.random()*animals.length)
+randomString += animals[index];
+}
+
+console.log(randomString);
+</script>
+
+2 随机PWD
+<script>
+var input = "javascript is awesome";
+var output = "";
+console.log(input.length);
+for (i=0;i<input.length;i++) {
+	if ("a"===input[i]){
+	output += 4;
+	}
+	else if ("e"===input[i]){
+	output += 3;
+	}
+	else if ("i"===input[i]){
+	output += 1;
+	}
+	else if ("o"===input[i]){
+	output += 0;
+	}
+	else {
+	output += input[i];
+	
+	}
+}
+console.log(output);
+
+</script>

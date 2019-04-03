@@ -1,4 +1,4 @@
-1 随机PWD
+1 RandomPWD
 <script>
 var animals ="abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ0123456789";
 var randomString ="";
@@ -11,7 +11,7 @@ randomString += animals[index];
 console.log(randomString);
 </script>
 
-2 随机PWD
+2 RandomPWD
 <script>
 var input = "javascript is awesome";
 var output = "";
